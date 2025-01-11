@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import SuccessLoginPage from "./Pages/SuccessLoginPage";
-import { ProtectedRoutes } from "../middlewares/ProtectedRoutes";
 import ProductDetails from "./Components/Products/ProductDetails";
 import UserDetails from "./Components/Users/UserDetails"
 import NewProductForm from "./Components/Products/NewProductForm";
@@ -36,10 +35,6 @@ function App() {
             <Route path="/contatti" element = {<Contatti/>}/>
             <Route path="/privacy" element = {<PrivacyPolicy/>}/>
             <Route path="create-new-users" element = {<NewUsersForm/>}/>
-            
-            <Route element={<ProtectedRoutes />}>
-            
-            </Route>
           </Routes>
         </BrowserRouter>
       
