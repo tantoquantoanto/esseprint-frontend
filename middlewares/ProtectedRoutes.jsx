@@ -9,5 +9,5 @@ export const isAuthorized = () => {
 export const ProtectedRoutes = () => {
 
     const isAuth = isAuthorized()
-  return isAuth ? <Outlet /> : <Login />;
+  return isAuth ? <Outlet /> : <Login/>;
 };
