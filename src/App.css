@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4; 
+  color: #333333; 
+}
+
+
+.Navbar {
+  background-color: #007bff; 
+}
+
+.Navbar .navbar-brand {
+  font-weight: 600;
+  color: #ffffff; 
+  transition: color 0.3s;
+}
+
+.Navbar .navbar-brand:hover {
+  color: #ff6600; 
+}
+
+.Navbar .nav-link {
+  color: #ffffff; 
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.Navbar .nav-link:hover {
+  color: #ff6600; 
+}
+
+.Navbar .navbar-toggler-icon {
+  background-color: #ffffff; 
+}
+
+
+button, .btn-primary {
+  background-color: #c35cd8; 
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover, .btn-primary:hover {
+  background-color: #5f1368; 
+}
+
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333333; 
+}
+
+.card-body {
+  background-color: #ffffff;
+}
+
+
+input, select, textarea, .form-control {
+  border-radius: 5px;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #007bff; 
+  outline: none;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  color: #333333;
+}
+
+.text-muted {
+  color: #777777; 
+}
+
+.text-info {
+  color: #28a745; 
+}
+
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff6600; 
+}
